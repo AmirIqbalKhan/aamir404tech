@@ -1,0 +1,55 @@
+# robots.txt — https://aamir404tech.vercel.app/
+# Policy: allow search engines and citation-capable AI crawlers; block aggressive scrapers.
+
+User-agent: *
+Allow: /
+Disallow: /vercel.json
+
+# --- AI citation crawlers: ALLOWED (power ChatGPT / Claude / Gemini / Perplexity / Siri citations) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Aggressive / low-citation-value scrapers: BLOCKED ---
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+Sitemap: https://aamir404tech.vercel.app/sitemap.xml

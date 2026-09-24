@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amir Iqbal Khan — 404 Tech</title>
+    <link>https://aamir404tech.vercel.app/</link>
+    <atom:link href="https://aamir404tech.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Engineering notes and portfolio updates from Amir Iqbal Khan, full stack developer and founder of 404 Tech.</description>
+    <language>en-us</language>
+    <copyright>© 2026 Amir Iqbal Khan — 404 Tech</copyright>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How I build digital products end to end: architecture, interfaces, AI and performance</title>
+      <link>https://aamir404tech.vercel.app/#approach</link>
+      <guid isPermaLink="true">https://aamir404tech.vercel.app/#approach</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Amir Iqbal Khan</dc:creator>
+      <description>Structure before screens, interfaces that respect the user's time, AI as a product capability rather than a feature sticker, Core Web Vitals as a design constraint, and what happens after launch.</description>
+      <media:content url="https://aamir404tech.vercel.app/og-image.png" medium="image" type="image/png" width="1200" height="675">
+        <media:title>How I build digital products end to end</media:title>
+        <media:credit>Amir Iqbal Khan</media:credit>
+      </media:content>
+    </item>
+    <item>
+      <title>What I build: digital products, AI experiences, creative websites, developer tools and ecommerce</title>
+      <link>https://aamir404tech.vercel.app/#work</link>
+      <guid isPermaLink="true">https://aamir404tech.vercel.app/#work</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Amir Iqbal Khan</dc:creator>
+      <description>Five kinds of work shipped end to end by 404 Tech — from architecture and interfaces through deployment, plus the focus areas behind them.</description>
+      <media:content url="https://aamir404tech.vercel.app/og-image.png" medium="image" type="image/png" width="1200" height="675">
+        <media:title>What I build — 404 Tech project families</media:title>
+        <media:credit>Amir Iqbal Khan</media:credit>
+      </media:content>
+    </item>
+  </channel>
+</rss>

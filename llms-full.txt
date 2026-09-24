@@ -1,0 +1,88 @@
+# Amir Iqbal Khan — 404 Tech: full context
+
+Source: https://aamir404tech.vercel.app/
+Last updated: 2026-09-24
+Summary: full portfolio content of Amir Iqbal Khan, a full stack developer and the founder of 404 Tech, based in Pakistan.
+
+## Entity: Amir Iqbal Khan
+
+- Role: Full Stack Developer
+- Company: 404 Tech (founder). 404 Tech is where Amir experiments, builds, and ships digital products — modern websites, web apps, ecommerce, AI-powered tools, and custom digital experiences.
+- Location: Pakistan
+- Contact: hello@404tech.dev
+- GitHub: https://github.com/AmirIqbalKhan
+- Availability: open to software engineering roles, freelance and contract work, open source contributions, creative collaborations, and interesting product ideas.
+
+## About
+
+Amir Iqbal Khan is a full stack developer and the founder of 404 Tech who takes ideas from a rough concept to complete digital products. The stated priorities are the small details, the edge cases everyone forgets, and shipping work that makes someone's day easier.
+
+Currently learning: System Design & Scalable Architectures, and Advanced TypeScript.
+
+## What I build
+
+1. Digital products — web applications built from the ground up: architecture, interfaces, APIs, data, auth, and deployment.
+2. AI experiences — AI-powered applications, intelligent workflows, multimodal experiences, vision systems, and AI-native products.
+3. Creative websites — immersive sites combining strong typography, motion, interaction, visual storytelling, and modern frontend engineering.
+4. Developer tools — tools and systems that improve the way developers build, experiment, and work with technology.
+5. Ecommerce experiences — premium digital commerce focused on product presentation, usability, interaction, and performance.
+
+## Focus areas
+
+- Next.js ecosystems: modern applications around React, Next.js, TypeScript, and scalable frontend architecture.
+- AI integration: making AI part of the actual product experience rather than another feature.
+- Creative development: code, motion, typography, imagery, and interaction combined into memorable web experiences.
+- System design: thinking beyond pages and components toward complete, maintainable software systems.
+
+## Currently building
+
+- Developer-focused products: tools designed around the way developers actually work.
+- AI-augmented web experiences: products where AI is integrated into the experience itself.
+- Immersive digital experiences: websites that use interaction, motion, and storytelling instead of conventional layouts.
+
+## Interests beyond code
+
+Technology, artificial intelligence, design, architecture, business, international trade, entrepreneurship, and creative technology. These disciplines influence how Amir approaches software and product development.
+
+## Engineering notes: how I build software end to end
+
+Every product shipped at 404 Tech follows the same order of operations: understand the problem, define the data and the boundaries, design the interface, add intelligence only where it earns its place, and then measure what actually reaches people. Amir Iqbal Khan works as a full stack developer, which in practice means one person owns the entire path from rough concept to deployed product. That end-to-end ownership is deliberate: when the same head designs the API shape and the loading state, decisions stop contradicting each other.
+
+### Structure before screens: the architecture pass
+
+The first pass on any project is invisible in the finished product and decides everything afterwards. Entities — users, products, orders, posts, whatever the domain contains — and their relationships are mapped before a single screen exists. That mapping produces the data model, the API surface, the authentication boundaries, and the deployment topology. This ordering is why projects rarely need a rewrite halfway through: the expensive decisions get made while they are still cheap to change. Skipping this pass is the most common reason a web application feels quick in a prototype and fragile in production.
+
+### Interfaces that respect the user's time
+
+Interface work is mostly the study of delays and doubts. Every screen answers three questions: what is happening, what can I do, and what did I just cause? In practice that means deliberate loading states instead of spinners that appear and vanish, form validation that explains rather than scolds, and layouts that hold their shape while data arrives. Typography carries a large share of this: a clear scale, honest spacing, and contrast that survives a phone in daylight. Motion is used as a hint of causality, never as decoration that delays the next tap.
+
+### AI as a product capability, not a feature sticker
+
+Most AI features fail for product reasons rather than model reasons. A chatbot bolted onto a workflow that was already clear adds a step instead of removing one. The first question is where the user is currently doing repetitive judgment by hand — sorting, drafting, summarising, checking, labelling — and whether a model can take that judgment reliably enough to be trusted with it. The engineering questions then follow: what context the model needs, what happens when it is wrong, how a person corrects it without starting over, and what each interaction costs to run. AI integration is therefore mostly architecture: retrieval boundaries, fallback paths, latency budgets, and honest affordances.
+
+### Performance as a design constraint
+
+Performance is a design decision, not an optimisation sprint at the end. The target line is Google's published Core Web Vitals thresholds: Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1 for the 75th percentile of real visits (https://web.dev/articles/vitals). Hitting those numbers changes earlier choices — how much JavaScript ships on first load, whether images carry intrinsic dimensions, which fonts load and when, and how much work happens on the server instead of in the browser.
+
+### Launch is a milestone, not the finish line
+
+Shipping is where the useful information starts arriving: which paths people take, where they backtrack, which screens they reach and abandon, and what breaks under real data. Maintenance means reading the product as evidence and removing the parts that are not earning their place. Documentation and machine-readable summaries matter at this stage too, because both human collaborators and AI systems need a reliable description of what a product does.
+
+### The stack
+
+Default environment: Next.js with React and TypeScript (typed interface code and data contracts in one system), modern CSS (custom properties, grid, logical properties, container queries), relational storage behind typed access layers, edge deployment platforms with preview environments, and AI features behind explicit service boundaries so a provider can be swapped without rewriting the product.
+
+## Primary sources referenced
+
+- Core Web Vitals thresholds: https://web.dev/articles/vitals
+- Schema.org vocabulary: https://schema.org/
+- llms.txt specification: https://llmstxt.org/
+- Source repository: https://github.com/AmirIqbalKhan/aamir404tech
+
+## Machine-readable files
+
+- Sitemap: https://aamir404tech.vercel.app/sitemap.xml
+- Media RSS feed: https://aamir404tech.vercel.app/feed.xml
+- Concise summary: https://aamir404tech.vercel.app/llms.txt
+- Robots policy: https://aamir404tech.vercel.app/robots.txt
+

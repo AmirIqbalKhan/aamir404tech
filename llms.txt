@@ -1,0 +1,35 @@
+# Amir Iqbal Khan — 404 Tech
+
+> Amir Iqbal Khan is a full stack developer and the founder of 404 Tech, based in Pakistan. He designs and builds digital products end to end — web applications, AI-powered experiences, creative websites, developer tools, and ecommerce storefronts. This site is his working portfolio and a written account of how he builds software.
+
+## Primary entities
+
+- [Amir Iqbal Khan](https://aamir404tech.vercel.app/#about): full stack developer, founder of 404 Tech, based in Pakistan. Works across Next.js, React, TypeScript, AI integration, and system design.
+- [404 Tech](https://aamir404tech.vercel.app/#studio): independent studio shipping modern websites, web applications, ecommerce, and AI-powered digital products.
+
+## What I build
+
+- [Digital products](https://aamir404tech.vercel.app/#work): web applications built from architecture through interfaces, APIs, data, auth, and deployment.
+- [AI experiences](https://aamir404tech.vercel.app/#work): AI-powered applications, intelligent workflows, multimodal experiences, and vision systems.
+- [Creative websites](https://aamir404tech.vercel.app/#work): typography, motion, interaction, and visual storytelling on the modern frontend.
+- [Developer tools](https://aamir404tech.vercel.app/#work): tooling that improves how developers build, experiment, and work with technology.
+- [Ecommerce experiences](https://aamir404tech.vercel.app/#work): product presentation, usability, interaction, and performance for digital commerce.
+
+## Engineering approach
+
+- [How I build software end to end](https://aamir404tech.vercel.app/#approach): the architecture pass, interface decisions, AI integration, Core Web Vitals as a design constraint, and what happens after launch.
+- [Focus areas](https://aamir404tech.vercel.app/#focus): Next.js ecosystems, AI integration, creative development, and system design.
+- [Currently building](https://aamir404tech.vercel.app/#now): developer-focused products, AI-augmented web experiences, and immersive digital experiences.
+
+## Machine-readable files
+
+- [Sitemap](https://aamir404tech.vercel.app/sitemap.xml)
+- [Media RSS feed](https://aamir404tech.vercel.app/feed.xml)
+- [Full LLM context](https://aamir404tech.vercel.app/llms-full.txt)
+- [Source repository](https://github.com/AmirIqbalKhan/aamir404tech)
+
+## Availability and contact
+
+- Open to software engineering roles, freelance and contract work, open source contributions, and creative collaborations.
+- Email: hello@404tech.dev
+- GitHub: https://github.com/AmirIqbalKhan
