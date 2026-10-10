@@ -5,13 +5,13 @@
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amir Iqbal Khan — 404 Tech</title>
+    <title>404 Tech — Engineering notes</title>
     <link>https://aamir404tech.vercel.app/</link>
     <atom:link href="https://aamir404tech.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>Engineering notes and portfolio updates from Amir Iqbal Khan, full stack developer and founder of 404 Tech.</description>
     <language>en-us</language>
     <copyright>© 2026 Amir Iqbal Khan — 404 Tech</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title>How I build digital products end to end: architecture, interfaces, AI and performance</title>
       <link>https://aamir404tech.vercel.app/#approach</link>
@@ -32,7 +32,7 @@
       <dc:creator>Amir Iqbal Khan</dc:creator>
       <description>Five kinds of work shipped end to end by 404 Tech — from architecture and interfaces through deployment, plus the focus areas behind them.</description>
       <media:content url="https://aamir404tech.vercel.app/og-image.png" medium="image" type="image/png" width="1200" height="675">
-        <media:title>What I build — 404 Tech project families</media:title>
+        <media:title>What I build — 404 Tech services</media:title>
         <media:credit>Amir Iqbal Khan</media:credit>
       </media:content>
     </item>

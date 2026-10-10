@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://aamir404tech.vercel.app/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://aamir404tech.vercel.app/og-image.png</image:loc>
-      <image:title>Amir Iqbal Khan — Full Stack Developer, founder of 404 Tech</image:title>
+      <image:title>404 Tech — Digital Products, Websites &amp; AI Experiences</image:title>
     </image:image>
   </url>
 </urlset>

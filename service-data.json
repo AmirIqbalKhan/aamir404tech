@@ -1,0 +1,62 @@
+[
+  {
+    "id": "products",
+    "title": "Digital products",
+    "label": "Digital products",
+    "eyebrow": "From concept to launch",
+    "description": "Turn a complex idea into a product that feels effortless. Thoughtful interfaces, dependable architecture, and every connection in between.",
+    "features": [
+      "Full-stack web applications",
+      "APIs, authentication & data",
+      "Deployment & ongoing iteration"
+    ]
+  },
+  {
+    "id": "ai",
+    "title": "AI with a purpose.",
+    "label": "AI experiences",
+    "eyebrow": "Intelligence, thoughtfully integrated",
+    "description": "Make intelligence part of the experience. Useful AI workflows that help people create, understand, and get meaningful work done.",
+    "features": [
+      "AI-powered product experiences",
+      "Intelligent workflows & automation",
+      "Multimodal & vision integration"
+    ]
+  },
+  {
+    "id": "websites",
+    "title": "Impossible to ignore.",
+    "label": "Creative websites",
+    "eyebrow": "A first impression that stays",
+    "description": "Give your brand a digital presence with a point of view. Expressive typography, purposeful motion, and interactions worth remembering.",
+    "features": [
+      "Distinctive brand websites",
+      "Interactive experiences & motion",
+      "Responsive, performance-minded builds"
+    ]
+  },
+  {
+    "id": "tools",
+    "title": "Better tools. Better flow.",
+    "label": "Developer tools",
+    "eyebrow": "Built for the way you work",
+    "description": "Remove friction from the everyday. Focused tools and systems that help developers build, experiment, and spend more time on what matters.",
+    "features": [
+      "Custom developer workflows",
+      "Internal tools & dashboards",
+      "Technical systems & integrations"
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Designed to be desired.",
+    "label": "Ecommerce",
+    "eyebrow": "From discovery to checkout",
+    "description": "Bring your products into focus. Considered commerce experiences that connect beautiful presentation with a clear path to purchase.",
+    "features": [
+      "Custom digital storefronts",
+      "Product discovery & presentation",
+      "Usability, interaction & performance"
+    ]
+  }
+]

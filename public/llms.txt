@@ -1,0 +1,39 @@
+# 404 Tech — Independent Digital Studio
+
+> 404 Tech is the independent development studio of Amir Iqbal Khan, a full stack developer based in Pakistan. The studio designs and builds web applications, creative websites, AI-powered experiences, developer tools, and ecommerce experiences.
+
+## Services
+
+- [Digital products](https://aamir404tech.vercel.app/#panel-products): architecture, interfaces, APIs, authentication, data, and deployment.
+- [AI experiences](https://aamir404tech.vercel.app/#panel-ai): AI-powered product experiences, intelligent workflows, and multimodal integration.
+- [Creative websites](https://aamir404tech.vercel.app/#panel-websites): distinctive typography, purposeful motion, and responsive interactions.
+- [Developer tools](https://aamir404tech.vercel.app/#panel-tools): custom workflows, internal tools, and technical integrations.
+- [Ecommerce](https://aamir404tech.vercel.app/#panel-commerce): product presentation, discovery, usability, and performance.
+
+The interface previews are illustrative capability demonstrations, not client case studies or evidence of specific project outcomes.
+
+## Studio and approach
+
+- [Process](https://aamir404tech.vercel.app/#process): Define, Design, Build, Launch. Direct collaboration and end-to-end ownership.
+- [Founder](https://aamir404tech.vercel.app/#about): Amir Iqbal Khan, full stack developer and founder of 404 Tech.
+- [Studio](https://aamir404tech.vercel.app/#studio): the thinking behind the work.
+- [Expertise](https://aamir404tech.vercel.app/#focus): Next.js, React, TypeScript, AI integration, and system design.
+- [Current interests](https://aamir404tech.vercel.app/#now): system design, advanced TypeScript, and AI-powered experiences.
+- [Engineering notes](https://aamir404tech.vercel.app/#approach): architecture, interfaces, AI, performance, launch, and collaboration.
+
+## Contact
+
+- [Start a project](https://aamir404tech.vercel.app/#contact)
+- Email: hello@404tech.dev
+- [GitHub](https://github.com/AmirIqbalKhan)
+
+## Technical details
+
+Built with HTML, CSS, JavaScript, Vite, and the MIT-licensed shaders 4.0.4 package. Optional WebGPU effects load after the page content and fall back to static artwork when unavailable or when reduced motion is requested. Hosting target: Vercel.
+
+## Machine-readable files
+
+- [Sitemap](https://aamir404tech.vercel.app/sitemap.xml)
+- [RSS feed](https://aamir404tech.vercel.app/feed.xml)
+- [Full context](https://aamir404tech.vercel.app/llms-full.txt)
+- [Source repository](https://github.com/AmirIqbalKhan/aamir404tech)

@@ -1,0 +1,77 @@
+# 404 Tech — Independent Digital Studio
+
+> 404 Tech is the independent development studio of Amir Iqbal Khan, a full stack developer based in Pakistan. The studio designs and builds web applications, creative websites, AI-powered experiences, developer tools, and ecommerce experiences.
+
+## Services
+
+- [Digital products](https://aamir404tech.vercel.app/#panel-products): architecture, interfaces, APIs, authentication, data, and deployment.
+- [AI experiences](https://aamir404tech.vercel.app/#panel-ai): AI-powered product experiences, intelligent workflows, and multimodal integration.
+- [Creative websites](https://aamir404tech.vercel.app/#panel-websites): distinctive typography, purposeful motion, and responsive interactions.
+- [Developer tools](https://aamir404tech.vercel.app/#panel-tools): custom workflows, internal tools, and technical integrations.
+- [Ecommerce](https://aamir404tech.vercel.app/#panel-commerce): product presentation, discovery, usability, and performance.
+
+The interface previews are illustrative capability demonstrations, not client case studies or evidence of specific project outcomes.
+
+## Studio and approach
+
+- [Process](https://aamir404tech.vercel.app/#process): Define, Design, Build, Launch. Direct collaboration and end-to-end ownership.
+- [Founder](https://aamir404tech.vercel.app/#about): Amir Iqbal Khan, full stack developer and founder of 404 Tech.
+- [Studio](https://aamir404tech.vercel.app/#studio): the thinking behind the work.
+- [Expertise](https://aamir404tech.vercel.app/#focus): Next.js, React, TypeScript, AI integration, and system design.
+- [Current interests](https://aamir404tech.vercel.app/#now): system design, advanced TypeScript, and AI-powered experiences.
+- [Engineering notes](https://aamir404tech.vercel.app/#approach): architecture, interfaces, AI, performance, launch, and collaboration.
+
+## Contact
+
+- [Start a project](https://aamir404tech.vercel.app/#contact)
+- Email: hello@404tech.dev
+- [GitHub](https://github.com/AmirIqbalKhan)
+
+## Technical details
+
+Built with HTML, CSS, JavaScript, Vite, and the MIT-licensed shaders 4.0.4 package. Optional WebGPU effects load after the page content and fall back to static artwork when unavailable or when reduced motion is requested. Hosting target: Vercel.
+
+## Machine-readable files
+
+- [Sitemap](https://aamir404tech.vercel.app/sitemap.xml)
+- [RSS feed](https://aamir404tech.vercel.app/feed.xml)
+- [Full context](https://aamir404tech.vercel.app/llms-full.txt)
+- [Source repository](https://github.com/AmirIqbalKhan/aamir404tech)
+
+# Engineering notes
+
+Every product I ship at 404 Tech follows the same order of operations: understand the problem, define the data and the boundaries, design the interface, add intelligence only where it earns its place, and then measure what actually reaches people. Amir Iqbal Khan works as a full stack developer, which in practice means one person owns the entire path from rough concept to deployed product. That end-to-end ownership is deliberate rather than a staffing accident. When the same head designs the API shape and the loading state, decisions stop contradicting each other — the interface stops promising data the backend cannot deliver quickly, and performance stops being a cleanup task assigned to the end of a project.
+
+
+## Structure before screens: the architecture pass
+
+      The first pass on any project is invisible in the finished product, and it is the pass that decides everything afterwards. I map the entities — users, products, orders, posts, whatever the domain actually contains — and the relationships between them before a single screen exists. That mapping produces the data model, the API surface, the authentication boundaries, and the deployment topology. Only then do interfaces have something real to talk to. This ordering is why my projects rarely need a rewrite halfway through: the expensive decisions get made while they are still cheap to change. Skipping this pass is the most common reason a web application feels quick in a prototype and fragile in production, because every later feature has to negotiate with a structure that was never designed.
+
+
+## Interfaces that respect the user's time
+
+      Interface work is mostly the study of delays and doubts. Every screen answers three questions: what is happening, what can I do, and what did I just cause? A product that answers those in the right order feels calm even while it is doing complicated work underneath. In practice that means deliberate loading states instead of spinners that appear and vanish, form validation that explains rather than scolds, and layouts that hold their shape while data arrives. Typography carries a large share of this: a clear scale, honest spacing, and contrast that survives a phone in daylight. Motion is used as a hint of causality — a panel that slides because it came from somewhere — never as decoration that delays the next tap.
+
+
+## AI as a product capability, not a feature sticker
+
+      Most AI features fail for product reasons rather than model reasons. A chatbot bolted onto a workflow that was already clear adds a step instead of removing one. The first question I ask is where the user is currently doing repetitive judgment by hand — sorting, drafting, summarising, checking, labelling — and whether a model can take that judgment reliably enough to be trusted with it. From there the engineering questions follow: what context does the model actually need, what happens when it is wrong, how does a person correct it without starting over, and what does each interaction cost to run. AI integration in my work is therefore mostly architecture work: retrieval boundaries, fallback paths, latency budgets, and honest affordances that make it obvious when a machine wrote something.
+
+## Performance as a design constraint
+
+      Performance is a design decision, not an optimisation sprint at the end. I treat Google's published Core Web Vitals thresholds as the target line: Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1 for the 75th percentile of real visits, as documented on web.dev. Hitting those numbers changes earlier choices — how much JavaScript ships on first load, whether images carry intrinsic dimensions, which fonts are loaded and when, and how much work happens on the server instead of in the browser. The reason to care is not the score itself. It is that a fast interface is a more forgiving interface: people tolerate complexity when the response is immediate, and they abandon a product that makes them wait to find out whether it worked.
+
+
+## Launch is a milestone, not the finish line
+
+      Shipping is where the useful information starts arriving. After launch I watch which paths people actually take, where they backtrack, which screens they reach and abandon, and what breaks under real data. Maintenance, for me, is not a euphemism for bug fixing: it means reading the product as evidence and then removing the parts that are not earning their place. Small regular improvements compound, and they keep a codebase honest — dependencies stay current, abstractions stay justified, and features nobody uses get deleted before they calcify into architecture. This is also the stage where documentation and machine-readable summaries matter, because both human collaborators and AI systems need a reliable description of what the product does and how it is meant to behave.
+
+
+## The stack I reach for
+
+      My default environment is Next.js with React and TypeScript, because the combination keeps interface code and data contracts inside one typed system, which removes a whole class of bugs that only appear at runtime. Styling is handled with modern CSS — custom properties, grid, logical properties, and container queries — rather than a heavy runtime layer. Data lives in relational storage behind typed access layers, and deployment runs on edge platforms with preview environments so every change is reviewable before it reaches production. AI features are integrated through explicit service boundaries instead of scattered calls, so a provider can be swapped without rewriting the product. Where a project needs something different, the stack changes; the reasoning does not.
+
+
+## What it is like to work with me
+
+      I am based in Pakistan and work with founders, small teams, and agencies who need someone comfortable owning a product rather than a ticket. Engagements usually start with a short written brief: the problem, the users, the constraints, and what success looks like in measurable terms. From there I work in visible increments and share running builds instead of status reports, so feedback arrives while it can still change the outcome. I am open to full-time software engineering roles, freelance and contract projects, open source contributions, and creative collaborations, and I am usually most useful where a project sits between engineering, design, and product. The best way to start is a short message describing what you are building and where it is stuck.

@@ -1,478 +1,1301 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Amir Iqbal Khan — Full Stack Developer &amp; 404 Tech Founder</title>
-<meta name="description" content="Amir Iqbal Khan is a full stack developer and founder of 404 Tech in Pakistan, building digital products, AI-powered experiences, and creative websites end to end." />
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-<link rel="canonical" href="https://aamir404tech.vercel.app/" />
-<meta name="author" content="Amir Iqbal Khan" />
-<link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-<link rel="alternate" type="application/rss+xml" title="Amir Iqbal Khan — 404 Tech (Media RSS)" href="/feed.xml" />
-<meta property="og:type" content="profile" />
-<meta property="og:site_name" content="Amir Iqbal Khan — 404 Tech" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:title" content="Amir Iqbal Khan — Full Stack Developer &amp; Founder of 404 Tech" />
-<meta property="og:description" content="Full stack developer building digital products, AI-powered experiences, and creative websites from Pakistan — architecture, interfaces, and shipping, end to end." />
-<meta property="og:url" content="https://aamir404tech.vercel.app/" />
-<meta property="og:image" content="https://aamir404tech.vercel.app/og-image.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="675" />
-<meta property="og:image:alt" content="Amir Iqbal Khan — Full Stack Developer and founder of 404 Tech" />
-<meta property="profile:first_name" content="Amir" />
-<meta property="profile:last_name" content="Iqbal Khan" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Amir Iqbal Khan — Full Stack Developer &amp; Founder of 404 Tech" />
-<meta name="twitter:description" content="Full stack developer building digital products, AI-powered experiences, and creative websites from Pakistan — architecture, interfaces, and shipping, end to end." />
-<meta name="twitter:image" content="https://aamir404tech.vercel.app/og-image.png" />
-<meta name="twitter:image:alt" content="Amir Iqbal Khan — Full Stack Developer and founder of 404 Tech" />
-<link rel="icon" href="favicon.ico" sizes="32x32" />
-<link rel="icon" href="favicon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-<meta name="theme-color" content="#f8f6f1" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://aamir404tech.vercel.app/#website",
-      "url": "https://aamir404tech.vercel.app/",
-      "name": "Amir Iqbal Khan — 404 Tech",
-      "description": "Portfolio of Amir Iqbal Khan, full stack developer and founder of 404 Tech.",
-      "inLanguage": "en",
-      "publisher": { "@id": "https://aamir404tech.vercel.app/#person" }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://aamir404tech.vercel.app/#person",
-      "name": "Amir Iqbal Khan",
-      "jobTitle": "Full Stack Developer",
-      "description": "Full stack developer and founder of 404 Tech, building digital products, AI-powered experiences, and creative websites.",
-      "url": "https://aamir404tech.vercel.app/",
-      "image": "https://aamir404tech.vercel.app/og-image.png",
-      "email": "hello@404tech.dev",
-      "address": { "@type": "PostalAddress", "addressCountry": "PK" },
-      "worksFor": { "@id": "https://aamir404tech.vercel.app/#organization" },
-      "founder": { "@id": "https://aamir404tech.vercel.app/#organization" },
-      "knowsAbout": [
-        "Full stack web development",
-        "Next.js",
-        "React",
-        "TypeScript",
-        "AI integration",
-        "System design",
-        "Ecommerce development",
-        "Creative web development"
-      ],
-      "sameAs": ["https://github.com/AmirIqbalKhan"]
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://aamir404tech.vercel.app/#organization",
-      "name": "404 Tech",
-      "url": "https://aamir404tech.vercel.app/",
-      "email": "hello@404tech.dev",
-      "description": "Independent studio building modern websites, web apps, ecommerce, and AI-powered digital products.",
-      "founder": { "@id": "https://aamir404tech.vercel.app/#person" }
-    },
-    {
-      "@type": "ProfilePage",
-      "@id": "https://aamir404tech.vercel.app/#webpage",
-      "url": "https://aamir404tech.vercel.app/",
-      "name": "Amir Iqbal Khan — Full Stack Developer & 404 Tech Founder",
-      "isPartOf": { "@id": "https://aamir404tech.vercel.app/#website" },
-      "about": { "@id": "https://aamir404tech.vercel.app/#person" },
-      "primaryImageOfPage": { "@id": "https://aamir404tech.vercel.app/#primaryimage" },
-      "inLanguage": "en"
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://aamir404tech.vercel.app/#primaryimage",
-      "url": "https://aamir404tech.vercel.app/og-image.png",
-      "contentUrl": "https://aamir404tech.vercel.app/og-image.png",
-      "width": 1200,
-      "height": 675,
-      "caption": "Amir Iqbal Khan — Full Stack Developer and founder of 404 Tech"
-    },
-    {
-      "@type": "TechArticle",
-      "@id": "https://aamir404tech.vercel.app/#article",
-      "headline": "How I build digital products end to end: architecture, interfaces, AI and performance",
-      "description": "The engineering process behind 404 Tech projects: structure before screens, interfaces that respect the user's time, AI as a product capability, Core Web Vitals as a design constraint, and what happens after launch.",
-      "author": { "@id": "https://aamir404tech.vercel.app/#person" },
-      "publisher": { "@id": "https://aamir404tech.vercel.app/#person" },
-      "datePublished": "2026-09-24",
-      "dateModified": "2026-09-24",
-      "inLanguage": "en",
-      "isPartOf": { "@id": "https://aamir404tech.vercel.app/#website" },
-      "mainEntityOfPage": { "@id": "https://aamir404tech.vercel.app/#webpage" },
-      "about": { "@id": "https://aamir404tech.vercel.app/#organization" }
-    },
-    {
-      "@type": "SoftwareApplication",
-      "@id": "https://aamir404tech.vercel.app/#software",
-      "name": "404 Tech Portfolio — amir404tech",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "Any modern web browser",
-      "url": "https://aamir404tech.vercel.app/",
-      "author": { "@id": "https://aamir404tech.vercel.app/#person" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "@id": "https://aamir404tech.vercel.app/#sourcecode",
-      "name": "amir404tech — notebook-style portfolio source",
-      "codeRepository": "https://github.com/AmirIqbalKhan/aamir404tech",
-      "programmingLanguage": ["HTML", "CSS", "JavaScript"],
-      "author": { "@id": "https://aamir404tech.vercel.app/#person" }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://aamir404tech.vercel.app/#breadcrumbs",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aamir404tech.vercel.app/" },
-        { "@type": "ListItem", "position": 2, "name": "What I build", "item": "https://aamir404tech.vercel.app/#work" },
-        { "@type": "ListItem", "position": 3, "name": "How I build software", "item": "https://aamir404tech.vercel.app/#approach" }
-      ]
-    }
-  ]
-}
-</script>
-</head>
-<body>
-
-<!-- ——— NAV BAR ——— -->
-<header class="bar">
-  <a class="bar-logo" href="#top" aria-label="Amir Iqbal Khan — home">✱</a>
-  <span class="bar-name" aria-hidden="true">amir · 404 tech</span>
-  <nav class="bar-nav" id="nav" aria-label="Primary">
-    <a href="#top" style="--ac:var(--yellow)"><i class="ic ic--y">★</i>Home</a>
-    <a href="#about" style="--ac:var(--pink)"><i class="ic ic--p">☺</i>About</a>
-    <a href="#work" style="--ac:var(--blue)"><i class="ic ic--b">▦</i>Work</a>
-    <a href="#now" style="--ac:var(--green)"><i class="ic ic--g">◆</i>Now</a>
-  </nav>
-  <div class="bar-right">
-    <span class="face face--y" aria-hidden="true">🙂</span>
-    <span class="face face--p" aria-hidden="true">😎</span>
-    <span class="face face--g" aria-hidden="true">🤖</span>
-    <a class="btn btn--sm" href="#contact"><i class="sq"></i>Contact</a>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- ——— HERO ——— -->
-  <section class="hero">
-    <div class="hero-tags">
-      <span class="tag tag--g rv">Made things</span>
-      <span class="tag tag--y rv" style="--d:.08s">Sweat the details</span>
-    </div>
-
-    <p class="hero-hi rv" style="--d:.05s">my name is
-      <svg class="sqg" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 8 C 20 2, 40 10, 60 6 S 100 3, 118 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-    </p>
-
-    <h1 class="hero-name rv" style="--d:.12s">Amir<span class="hero-sur">Iqbal Khan</span></h1>
-    <span class="stick stick--role rv" style="--d:.2s">Full Stack Developer</span>
-    <p class="hero-open rv" style="--d:.24s"><i class="bdot"></i>Open to new work &amp; good problems</p>
-    <span class="stick stick--loc rv" style="--d:.28s">Pakistan 🇵🇰</span>
-
-    <img class="ava ava--l rv" style="--d:.3s" src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=200&auto=format&fit=crop" alt="Keyboard close-up" width="200" height="200" />
-    <img class="ava ava--r rv" style="--d:.34s" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=200&auto=format&fit=crop" alt="Retro technology detail" width="200" height="200" />
-
-    <h2 class="hero-line rv" style="--d:.36s">I build software that 🟢<br />gets out of your way. 🌸</h2>
-    <a class="btn rv" style="--d:.44s" href="mailto:hello@404tech.dev"><i class="sq"></i>Contact me</a>
-
-    <svg class="hero-wave" viewBox="0 0 1440 30" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0 18 Q 45 8 90 16 T 180 14 T 270 18 T 360 12 T 450 17 T 540 13 T 630 18 T 720 12 T 810 16 T 900 13 T 990 18 T 1080 12 T 1170 16 T 1260 13 T 1350 17 T 1440 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-  </section>
-  <!-- ——— ABOUT ——— -->
-  <section class="about sec" id="about">
-    <h2 class="hlab rv">about me!</h2>
-
-    <aside class="learn rv" style="--d:.15s">
-      <span class="tape tape--t" aria-hidden="true"></span>
-      <p class="learn-k">Currently learning 📌</p>
-      <p class="learn-n">System Design &amp; Scalable Architectures · Advanced TypeScript</p>
-      <button class="learn-x" type="button" aria-label="Dismiss">×</button>
-    </aside>
-
-    <p class="whats rv"><span>what's up</span></p>
-    <p class="hbio rv" style="--d:.08s">I'm a full stack developer &amp; founder of 404 Tech who gets a little too excited about taking ideas from a rough concept to complete digital products. ✨ I care about the small details, the edge cases everyone forgets, and shipping work that genuinely makes someone's day easier. 🎨</p>
-
-    <figure class="pol pol--l rv" style="--d:.14s">
-      <span class="tape tape--tl" aria-hidden="true"></span>
-      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=520&auto=format&fit=crop" alt="Clean desk setup with laptop" width="520" height="598" loading="lazy" />
-      <figcaption>my desk — 2026</figcaption>
-    </figure>
-    <figure class="pol pol--r rv" style="--d:.22s">
-      <span class="tape tape--tr" aria-hidden="true"></span>
-      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=520&auto=format&fit=crop" alt="Code on a screen" width="520" height="598" loading="lazy" />
-      <figcaption>where it happens</figcaption>
-    </figure>
-
-    <ul class="hls rv" style="--d:.26s">
-      <li class="hl hl--y">TypeScript</li>
-      <li class="esq" aria-hidden="true">🎨</li>
-      <li class="hl hl--g">Next.js</li>
-      <li class="esq" aria-hidden="true">⚡</li>
-      <li class="hl hl--p">AI Integration</li>
-      <li class="esq" aria-hidden="true">🧩</li>
-      <li class="hl hl--b">System Design</li>
-    </ul>
-  </section>
-  <!-- ——— WHAT I BUILD ——— -->
-  <section class="work sec" id="work">
-    <h2 class="hlab rv">things I build</h2>
-    <h2 class="sec-h rv" style="--d:.06s">What I build,<br /><span class="u-hl">end to end</span></h2>
-
-    <div class="cards">
-      <article class="card card--ink rv">
-        <span class="tab tab--b">◆ Project 01</span>
-        <div class="card-txt">
-          <p class="card-meta">● From idea to deployment</p>
-          <h3 class="card-title">Digital Products</h3>
-          <p class="card-copy">Web applications and digital products built from the ground up — architecture, interfaces, APIs, data, auth &amp; deployment.</p>
-          <a class="card-link" href="mailto:hello@404tech.dev">See the product work →</a>
-        </div>
-        <figure class="card-img">
-          <span class="tape tape--tl" aria-hidden="true"></span>
-          <span class="tape tape--tr" aria-hidden="true"></span>
-          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=720&auto=format&fit=crop" alt="Laptop with code in a dark workspace" width="720" height="558" loading="lazy" />
-        </figure>
-      </article>
-
-      <article class="card card--y rv" style="--d:.08s">
-        <span class="tab tab--i">◆ Project 02</span>
-        <div class="card-txt">
-          <p class="card-meta">● AI-native products</p>
-          <h3 class="card-title">AI Experiences</h3>
-          <p class="card-copy">AI-powered applications, intelligent workflows, multimodal experiences, vision systems, and AI-native products.</p>
-          <a class="card-link" href="mailto:hello@404tech.dev">Explore the AI builds →</a>
-        </div>
-        <figure class="card-img">
-          <span class="tape tape--tl" aria-hidden="true"></span>
-          <span class="tape tape--tr" aria-hidden="true"></span>
-          <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=720&auto=format&fit=crop" alt="Colorful lines of code" width="720" height="558" loading="lazy" />
-        </figure>
-      </article>
-      <article class="card card--w rv" style="--d:.08s">
-        <span class="tab tab--p">◆ Project 03</span>
-        <div class="card-txt">
-          <p class="card-meta">● Type · Motion · Story</p>
-          <h3 class="card-title">Creative Websites</h3>
-          <p class="card-copy">Immersive websites combining strong typography, motion, interaction, visual storytelling, and modern frontend engineering.</p>
-          <a class="card-link" href="mailto:hello@404tech.dev">View creative sites →</a>
-        </div>
-        <figure class="card-img">
-          <span class="tape tape--tl" aria-hidden="true"></span>
-          <span class="tape tape--tr" aria-hidden="true"></span>
-          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=720&auto=format&fit=crop" alt="Design tools and typography work" width="720" height="558" loading="lazy" />
-        </figure>
-      </article>
-
-      <article class="card card--b rv" style="--d:.08s">
-        <span class="tab tab--y">◆ Project 04</span>
-        <div class="card-txt">
-          <p class="card-meta">● Built for builders</p>
-          <h3 class="card-title">Developer Tools</h3>
-          <p class="card-copy">Tools and systems designed to improve the way developers build, experiment, and work with technology.</p>
-          <a class="card-link" href="mailto:hello@404tech.dev">Browse the dev tools →</a>
-        </div>
-        <figure class="card-img">
-          <span class="tape tape--tl" aria-hidden="true"></span>
-          <span class="tape tape--tr" aria-hidden="true"></span>
-          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=720&auto=format&fit=crop" alt="Circuit board macro study" width="720" height="558" loading="lazy" />
-        </figure>
-      </article>
-
-      <article class="card card--p rv" style="--d:.08s">
-        <span class="tab tab--i">◆ Project 05</span>
-        <div class="card-txt">
-          <p class="card-meta">● Commerce that converts</p>
-          <h3 class="card-title">Ecommerce Experiences</h3>
-          <p class="card-copy">Premium digital commerce experiences focused on product presentation, usability, interaction, and performance.</p>
-          <a class="card-link" href="mailto:hello@404tech.dev">Look at commerce work →</a>
-        </div>
-        <figure class="card-img">
-          <span class="tape tape--tl" aria-hidden="true"></span>
-          <span class="tape tape--tr" aria-hidden="true"></span>
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=720&auto=format&fit=crop" alt="Code editor on a widescreen monitor" width="720" height="558" loading="lazy" />
-        </figure>
-      </article>
-    </div>
-  </section>
-
-  <!-- ——— MY FOCUS ——— -->
-  <section class="focus sec" id="focus">
-    <h2 class="hlab rv">where I go deep</h2>
-    <div class="rows">
-      <div class="row rv">
-        <span class="row-n">01</span>
-        <h3 class="row-t">Next.js Ecosystems</h3>
-        <p class="row-x">Building modern applications around React, Next.js, TypeScript, and scalable frontend architecture.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 Tech — Digital Products, Websites & AI Experiences</title>
+    <meta
+      name="description"
+      content="Thoughtfully designed. Carefully engineered. 404 Tech is Amir Iqbal Khan’s independent studio for digital products, creative websites, ecommerce, and AI-powered experiences."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Amir Iqbal Khan" />
+    <meta name="theme-color" content="#090B10" />
+    <link rel="canonical" href="https://aamir404tech.vercel.app/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="404 Tech — Engineering notes"
+      href="/feed.xml"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="404 Tech" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="404 Tech — Built for what’s next." />
+    <meta
+      property="og:description"
+      content="Digital products, creative websites, and AI experiences. An independent development studio by Amir Iqbal Khan."
+    />
+    <meta property="og:url" content="https://aamir404tech.vercel.app/" />
+    <meta
+      property="og:image"
+      content="https://aamir404tech.vercel.app/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta
+      property="og:image:alt"
+      content="404 Tech — Digital products. Built for what’s next."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="404 Tech — Built for what’s next." />
+    <meta
+      name="twitter:description"
+      content="Thoughtfully designed. Carefully engineered. Digital products, websites, and AI experiences by Amir Iqbal Khan."
+    />
+    <meta
+      name="twitter:image"
+      content="https://aamir404tech.vercel.app/og-image.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="404 Tech — Digital products. Built for what’s next."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://aamir404tech.vercel.app/#website",
+            "url": "https://aamir404tech.vercel.app/",
+            "name": "404 Tech — Digital Products, Websites & AI Experiences",
+            "description": "Independent development studio founded by Amir Iqbal Khan. Websites, web applications, ecommerce, developer tools, and AI-powered experiences.",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://aamir404tech.vercel.app/#organization"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://aamir404tech.vercel.app/#person",
+            "name": "Amir Iqbal Khan",
+            "jobTitle": "Full Stack Developer",
+            "description": "Full stack developer and founder of 404 Tech, building digital products, AI-powered experiences, and creative websites.",
+            "url": "https://aamir404tech.vercel.app/",
+            "image": "https://aamir404tech.vercel.app/og-image.png",
+            "email": "hello@404tech.dev",
+            "address": { "@type": "PostalAddress", "addressCountry": "PK" },
+            "worksFor": {
+              "@id": "https://aamir404tech.vercel.app/#organization"
+            },
+            "knowsAbout": [
+              "Full stack web development",
+              "Next.js",
+              "React",
+              "TypeScript",
+              "AI integration",
+              "System design",
+              "Ecommerce development",
+              "Creative web development"
+            ],
+            "sameAs": ["https://github.com/AmirIqbalKhan"]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://aamir404tech.vercel.app/#organization",
+            "name": "404 Tech",
+            "url": "https://aamir404tech.vercel.app/",
+            "email": "hello@404tech.dev",
+            "description": "Independent studio building modern websites, web apps, ecommerce, and AI-powered digital products.",
+            "founder": { "@id": "https://aamir404tech.vercel.app/#person" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://aamir404tech.vercel.app/#webpage",
+            "url": "https://aamir404tech.vercel.app/",
+            "name": "404 Tech — Digital Products, Websites & AI Experiences",
+            "isPartOf": { "@id": "https://aamir404tech.vercel.app/#website" },
+            "about": { "@id": "https://aamir404tech.vercel.app/#organization" },
+            "primaryImageOfPage": {
+              "@id": "https://aamir404tech.vercel.app/#primaryimage"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://aamir404tech.vercel.app/#primaryimage",
+            "url": "https://aamir404tech.vercel.app/og-image.png",
+            "contentUrl": "https://aamir404tech.vercel.app/og-image.png",
+            "width": 1200,
+            "height": 675,
+            "caption": "404 Tech — Digital products. Built for what’s next."
+          },
+          {
+            "@type": "TechArticle",
+            "@id": "https://aamir404tech.vercel.app/#article",
+            "headline": "How I build digital products end to end: architecture, interfaces, AI and performance",
+            "description": "The engineering process behind 404 Tech projects: structure before screens, interfaces that respect the user's time, AI as a product capability, Core Web Vitals as a design constraint, and what happens after launch.",
+            "author": { "@id": "https://aamir404tech.vercel.app/#person" },
+            "publisher": { "@id": "https://aamir404tech.vercel.app/#person" },
+            "datePublished": "2026-09-24",
+            "dateModified": "2026-10-11",
+            "inLanguage": "en",
+            "isPartOf": { "@id": "https://aamir404tech.vercel.app/#website" },
+            "mainEntityOfPage": {
+              "@id": "https://aamir404tech.vercel.app/#webpage"
+            },
+            "about": { "@id": "https://aamir404tech.vercel.app/#organization" }
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://aamir404tech.vercel.app/#sourcecode",
+            "name": "404 Tech — digital studio website source",
+            "codeRepository": "https://github.com/AmirIqbalKhan/aamir404tech",
+            "programmingLanguage": ["HTML", "CSS", "JavaScript"],
+            "author": { "@id": "https://aamir404tech.vercel.app/#person" }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://aamir404tech.vercel.app/#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://aamir404tech.vercel.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "What I build",
+                "item": "https://aamir404tech.vercel.app/#work"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "How I build software",
+                "item": "https://aamir404tech.vercel.app/#approach"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="404 Tech home"
+          ><span class="brand-symbol"
+            ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <path
+                d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                stroke="currentColor"
+                stroke-width="3"
+              /></svg></span
+          ><span>404<span class="brand-tech">TECH</span></span></a
+        >
+        <nav class="main-nav" id="main-nav" aria-label="Primary">
+          <a href="#work">Services</a><a href="#process">Process</a
+          ><a href="#studio">Studio</a
+          ><a href="#contact" class="mobile-contact"
+            >Start a project
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M6 18 18 6M6 6h12v12"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </nav>
+        <a class="nav-cta" href="#contact"
+          >Start a project
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M6 18 18 6M6 6h12v12"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg></a
+        ><button
+          class="menu-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          type="button"
+        >
+          <span></span><span></span>
+        </button>
       </div>
-      <div class="row rv" style="--d:.08s">
-        <span class="row-n">02</span>
-        <h3 class="row-t">AI Integration</h3>
-        <p class="row-x">Exploring how AI can become part of the actual product experience rather than simply another feature.</p>
+    </header>
+    <main id="main">
+      <section class="hero container" id="top">
+        <div class="hero-copy">
+          <div class="availability">
+            <i class="status-dot"></i> INDEPENDENT STUDIO. OPEN FOR
+            COLLABORATION.
+          </div>
+          <h1>
+            Digital products.<br />Built for<br /><span class="hero-emphasis"
+              >what’s next.</span
+            >
+          </h1>
+          <p class="hero-description">
+            A good idea deserves a great experience.<br />We design and build
+            websites, applications, and AI experiences that move your business
+            forward.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact"
+              >Start a project
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M6 18 18 6M6 6h12v12"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg></a
+            ><a class="button button-quiet" href="#work"
+              >Explore services
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M5 12h14m-6-6 6 6-6 6"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></a>
+          </div>
+          <div class="hero-credit">
+            <span class="founder-monogram">ai<span>k</span></span>
+            <p>
+              Led by Amir Iqbal Khan<span>Full stack developer & founder</span>
+            </p>
+          </div>
+        </div>
+        <div class="hero-art shader-surface" data-shader="hero">
+          <div class="hero-fallback shader-fallback" aria-hidden="true">
+            <div class="art-glow"></div>
+            <img
+              src="/metal-orbit.svg"
+              alt=""
+              width="600"
+              height="600"
+              fetchpriority="high"
+            />
+          </div>
+          <canvas class="shader-canvas" aria-hidden="true"></canvas>
+          <div class="art-topline">
+            <span>EXPLORING THE POSSIBLE</span><span>✳</span>
+          </div>
+          <div class="art-coordinate" aria-hidden="true">
+            DESIGN<br />MEETS<br />ENGINEERING.
+          </div>
+          <div class="art-caption">
+            <span class="art-cross">+</span
+            ><span>Good ideas.<br /><strong>Made real.</strong></span
+            ><button
+              type="button"
+              class="motion-toggle"
+              data-motion-toggle
+              aria-label="Pause animated visuals"
+              aria-pressed="false"
+              hidden
+            >
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path
+                  class="pause-icon"
+                  d="M7 5v10M13 5v10"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path class="play-icon" d="m7 4 9 6-9 6z" fill="currentColor" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="expertise-strip container">
+        <span class="strip-label"
+          >THE IDEAS ARE YOURS.<br />THE CRAFT IS OURS.</span
+        >
+        <div class="stack-items">
+          <span class="stack-next">N<span>Next.js</span></span
+          ><span class="stack-react">⚛<span>React</span></span
+          ><span class="stack-ts"><b>TS</b><span>TypeScript</span></span
+          ><span class="stack-ai"
+            ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <path
+                d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                stroke="currentColor"
+                stroke-width="3"
+              /></svg
+            ><span>AI integration</span></span
+          ><span class="stack-system">⌘<span>System design</span></span>
+        </div>
       </div>
-      <div class="row rv" style="--d:.16s">
-        <span class="row-n">03</span>
-        <h3 class="row-t">Creative Development</h3>
-        <p class="row-x">Combining code, motion, typography, imagery, and interaction to create memorable digital experiences.</p>
-      </div>
-      <div class="row rv" style="--d:.24s">
-        <span class="row-n">04</span>
-        <h3 class="row-t">System Design</h3>
-        <p class="row-x">Thinking beyond individual pages and components toward complete, maintainable software systems.</p>
-      </div>
-    </div>
-  </section>
-  <!-- ——— 404 TECH / HOW I THINK ——— -->
-  <section class="studio sec" id="studio">
-    <h2 class="hlab rv">my studio · how I think</h2>
-    <h2 class="studio-n rv" style="--d:.08s"><span class="nbox">404 Tech</span></h2>
-    <p class="hbio hbio--sm rv" style="--d:.16s">404 Tech is where I experiment, build, and ship digital products — modern websites, web apps, ecommerce, AI-powered tools &amp; custom digital experiences.</p>
-    <p class="hquote rv" style="--d:.22s">"don't build what already exists.<br />build what makes sense."</p>
-    <ul class="rights rv" style="--d:.3s">
-      <li>the right structure</li>
-      <li>the right interaction</li>
-      <li>the right visual language</li>
-      <li>the right technology</li>
-    </ul>
-    <p class="hbio hbio--sm rv" style="--d:.36s">I care about the details that make something feel finished — from typography and spacing to motion, performance, and the smallest interaction.</p>
-  </section>
-
-  <!-- ——— CURRENTLY BUILDING ——— -->
-  <section class="now sec" id="now">
-    <h2 class="hlab rv">in progress…</h2>
-    <div class="stickies">
-      <article class="note note--y rv">
-        <span class="tape tape--t" aria-hidden="true"></span>
-        <h3>Developer-focused products</h3>
-        <p>Tools designed around the way developers actually work.</p>
-      </article>
-      <article class="note note--p rv" style="--d:.1s">
-        <span class="tape tape--t" aria-hidden="true"></span>
-        <h3>AI-augmented web experiences</h3>
-        <p>Products where AI is integrated into the experience itself.</p>
-      </article>
-      <article class="note note--b rv" style="--d:.2s">
-        <span class="tape tape--t" aria-hidden="true"></span>
-        <h3>Immersive digital experiences</h3>
-        <p>Websites that use interaction, motion, and storytelling instead of conventional layouts.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- ——— BEYOND CODE / OPEN TO ——— -->
-  <section class="more sec" id="more">
-    <div>
-      <h2 class="hlab rv">beyond code</h2>
-      <ul class="hls rv" style="--d:.08s">
-        <li class="hl hl--y">Technology</li>
-        <li class="hl hl--b">Artificial Intelligence</li>
-        <li class="hl hl--p">Design</li>
-        <li class="hl hl--g">Architecture</li>
-        <li class="hl hl--y">Business</li>
-        <li class="hl hl--p">International Trade</li>
-        <li class="hl hl--b">Entrepreneurship</li>
-        <li class="hl hl--g">Creative Technology</li>
-      </ul>
-      <p class="more-copy rv" style="--d:.16s">these different disciplines often influence how I approach software &amp; product development.</p>
-    </div>
-    <div>
-      <h2 class="hlab rv">open to</h2>
-      <ul class="hls rv" style="--d:.08s">
-        <li class="hl hl--g">Software Engineering Roles</li>
-        <li class="hl hl--y">Freelance &amp; Contract Work</li>
-        <li class="hl hl--p">Open Source Contributions</li>
-        <li class="hl hl--b">Creative Collaborations</li>
-        <li class="hl hl--g">Interesting Product Ideas</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ——— ENGINEERING NOTES — educational prose pillar (anti-thin content, EAV + GEO passages) ——— -->
-  <section class="notes sec" id="approach">
-    <h2 class="hlab rv">engineering notes</h2>
-    <h2 class="sec-h rv" style="--d:.06s">How I build software,<br /><span class="u-hl">end to end</span></h2>
-
-    <div class="prose">
-      <p class="rv">Every product I ship at 404 Tech follows the same order of operations: understand the problem, define the data and the boundaries, design the interface, add intelligence only where it earns its place, and then measure what actually reaches people. Amir Iqbal Khan works as a full stack developer, which in practice means one person owns the entire path from rough concept to deployed product. That end-to-end ownership is deliberate rather than a staffing accident. When the same head designs the API shape and the loading state, decisions stop contradicting each other — the interface stops promising data the backend cannot deliver quickly, and performance stops being a cleanup task assigned to the end of a project.</p>
-
-      <h3 class="rv">Structure before screens: the architecture pass</h3>
-      <p class="rv">The first pass on any project is invisible in the finished product, and it is the pass that decides everything afterwards. I map the entities — users, products, orders, posts, whatever the domain actually contains — and the relationships between them before a single screen exists. That mapping produces the data model, the API surface, the authentication boundaries, and the deployment topology. Only then do interfaces have something real to talk to. This ordering is why my projects rarely need a rewrite halfway through: the expensive decisions get made while they are still cheap to change. Skipping this pass is the most common reason a web application feels quick in a prototype and fragile in production, because every later feature has to negotiate with a structure that was never designed.</p>
-
-      <h3 class="rv">Interfaces that respect the user&#39;s time</h3>
-      <p class="rv">Interface work is mostly the study of delays and doubts. Every screen answers three questions: what is happening, what can I do, and what did I just cause? A product that answers those in the right order feels calm even while it is doing complicated work underneath. In practice that means deliberate loading states instead of spinners that appear and vanish, form validation that explains rather than scolds, and layouts that hold their shape while data arrives. Typography carries a large share of this: a clear scale, honest spacing, and contrast that survives a phone in daylight. Motion is used as a hint of causality — a panel that slides because it came from somewhere — never as decoration that delays the next tap.</p>
-
-      <h3 class="rv">AI as a product capability, not a feature sticker</h3>
-      <p class="rv">Most AI features fail for product reasons rather than model reasons. A chatbot bolted onto a workflow that was already clear adds a step instead of removing one. The first question I ask is where the user is currently doing repetitive judgment by hand — sorting, drafting, summarising, checking, labelling — and whether a model can take that judgment reliably enough to be trusted with it. From there the engineering questions follow: what context does the model actually need, what happens when it is wrong, how does a person correct it without starting over, and what does each interaction cost to run. AI integration in my work is therefore mostly architecture work: retrieval boundaries, fallback paths, latency budgets, and honest affordances that make it obvious when a machine wrote something.</p>
-      <h3 class="rv">Performance as a design constraint</h3>
-      <p class="rv">Performance is a design decision, not an optimisation sprint at the end. I treat Google&#39;s published Core Web Vitals thresholds as the target line: Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1 for the 75th percentile of real visits, as documented on <a href="https://web.dev/articles/vitals" rel="noopener">web.dev</a>. Hitting those numbers changes earlier choices — how much JavaScript ships on first load, whether images carry intrinsic dimensions, which fonts are loaded and when, and how much work happens on the server instead of in the browser. The reason to care is not the score itself. It is that a fast interface is a more forgiving interface: people tolerate complexity when the response is immediate, and they abandon a product that makes them wait to find out whether it worked.</p>
-
-      <h3 class="rv">Launch is a milestone, not the finish line</h3>
-      <p class="rv">Shipping is where the useful information starts arriving. After launch I watch which paths people actually take, where they backtrack, which screens they reach and abandon, and what breaks under real data. Maintenance, for me, is not a euphemism for bug fixing: it means reading the product as evidence and then removing the parts that are not earning their place. Small regular improvements compound, and they keep a codebase honest — dependencies stay current, abstractions stay justified, and features nobody uses get deleted before they calcify into architecture. This is also the stage where documentation and machine-readable summaries matter, because both human collaborators and AI systems need a reliable description of what the product does and how it is meant to behave.</p>
-
-      <h2 class="rv">The stack I reach for</h2>
-      <p class="rv">My default environment is <a href="https://nextjs.org/" rel="noopener">Next.js</a> with <a href="https://react.dev/" rel="noopener">React</a> and <a href="https://www.typescriptlang.org/" rel="noopener">TypeScript</a>, because the combination keeps interface code and data contracts inside one typed system, which removes a whole class of bugs that only appear at runtime. Styling is handled with modern CSS — custom properties, grid, logical properties, and container queries — rather than a heavy runtime layer. Data lives in relational storage behind typed access layers, and deployment runs on edge platforms with preview environments so every change is reviewable before it reaches production. AI features are integrated through explicit service boundaries instead of scattered calls, so a provider can be swapped without rewriting the product. Where a project needs something different, the stack changes; the reasoning does not.</p>
-
-      <h2 class="rv">What it is like to work with me</h2>
-      <p class="rv">I am based in Pakistan and work with founders, small teams, and agencies who need someone comfortable owning a product rather than a ticket. Engagements usually start with a short written brief: the problem, the users, the constraints, and what success looks like in measurable terms. From there I work in visible increments and share running builds instead of status reports, so feedback arrives while it can still change the outcome. I am open to full-time software engineering roles, freelance and contract projects, open source contributions, and creative collaborations, and I am usually most useful where a project sits between engineering, design, and product. The best way to start is a short message describing what you are building and where it is stuck.</p>
-    </div>
-    <div class="conduits rv">
+      <section class="services section container" id="work">
+        <div class="section-label">
+          <span>01 / WHAT WE BUILD</span><span>IDEA → EXPERIENCE</span>
+        </div>
+        <div class="section-heading">
+          <h2>
+            Complex problems.<br /><span class="muted"
+              >Thoughtful solutions.</span
+            >
+          </h2>
+          <p>
+            From the first sketch to the final deploy.<br />A considered
+            approach to everything<br />your product needs.
+          </p>
+        </div>
+        <div class="service-tabs" aria-label="Explore our services">
+          <a
+            href="#panel-products"
+            class="service-tab is-active"
+            id="tab-products"
+            data-service="products"
+            ><span class="tab-index">01</span>Digital products</a
+          ><a href="#panel-ai" class="service-tab" id="tab-ai" data-service="ai"
+            ><span class="tab-index">02</span>AI experiences</a
+          ><a
+            href="#panel-websites"
+            class="service-tab"
+            id="tab-websites"
+            data-service="websites"
+            ><span class="tab-index">03</span>Creative websites</a
+          ><a
+            href="#panel-tools"
+            class="service-tab"
+            id="tab-tools"
+            data-service="tools"
+            ><span class="tab-index">04</span>Developer tools</a
+          ><a
+            href="#panel-commerce"
+            class="service-tab"
+            id="tab-commerce"
+            data-service="commerce"
+            ><span class="tab-index">05</span>Ecommerce</a
+          >
+        </div>
+        <div class="service-panels">
+          <article
+            class="service-panel"
+            id="panel-products"
+            data-service-panel="products"
+          >
+            <div class="service-copy">
+              <span class="service-number">01<span> / 05</span></span>
+              <p class="eyebrow">From concept to launch</p>
+              <h3>Digital products</h3>
+              <p class="service-description">
+                Turn a complex idea into a product that feels effortless.
+                Thoughtful interfaces, dependable architecture, and every
+                connection in between.
+              </p>
+              <ul class="feature-list">
+                <li><span>↗</span>Full-stack web applications</li>
+                <li><span>↗</span>APIs, authentication & data</li>
+                <li><span>↗</span>Deployment & ongoing iteration</li>
+              </ul>
+              <a
+                class="text-link service-contact"
+                href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20Digital%20products"
+                >Let’s build it
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+            <div class="service-visual">
+              <div aria-hidden="true" class="demo-window product-demo">
+                <div class="demo-toolbar">
+                  <span class="demo-logo"
+                    ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                      <path
+                        d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                        stroke="currentColor"
+                        stroke-width="3"
+                      />
+                    </svg>
+                    orbit</span
+                  ><span class="demo-search"
+                    >Search your workspace <kbd>⌘ K</kbd></span
+                  ><span class="demo-avatar">A</span>
+                </div>
+                <div class="dashboard-layout">
+                  <aside class="demo-sidebar">
+                    <span class="demo-side-active">▦ &nbsp; Overview</span
+                    ><span>▧ &nbsp; Projects</span
+                    ><span>↗ &nbsp; Activity</span
+                    ><span>⚙ &nbsp; Settings</span>
+                    <div class="demo-side-bottom">
+                      <i class="status-dot"></i> All systems ready
+                    </div>
+                  </aside>
+                  <div class="dashboard-main">
+                    <div class="demo-heading">
+                      <div>
+                        <span class="demo-muted">YOUR WORKSPACE</span>
+                        <h4>Good things in motion.</h4>
+                      </div>
+                      <span class="demo-icon">↗</span>
+                    </div>
+                    <div class="demo-metrics">
+                      <div>
+                        <span>Design</span><strong>Clear.</strong
+                        ><i class="mini-line blue"></i>
+                      </div>
+                      <div>
+                        <span>Engineering</span><strong>Solid.</strong
+                        ><i class="mini-line violet"></i>
+                      </div>
+                      <div>
+                        <span>Experience</span><strong>Fluid.</strong
+                        ><i class="mini-line mint"></i>
+                      </div>
+                    </div>
+                    <div class="demo-chart">
+                      <div class="demo-chart-title">
+                        <span>From idea to impact</span
+                        ><span class="demo-tag">Product journey</span>
+                      </div>
+                      <svg
+                        viewBox="0 0 500 130"
+                        preserveAspectRatio="none"
+                        aria-hidden="true"
+                      >
+                        <defs>
+                          <linearGradient
+                            id="chart-fill"
+                            x1="0"
+                            y1="0"
+                            x2="0"
+                            y2="1"
+                          >
+                            <stop stop-color="#487cff" stop-opacity=".3" />
+                            <stop
+                              offset="1"
+                              stop-color="#487cff"
+                              stop-opacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                        <path
+                          d="M0 110C40 105 40 80 90 87S150 110 185 65 230 92 280 50 330 65 375 28 438 47 500 10V130H0Z"
+                          fill="url(#chart-fill)"
+                        />
+                        <path
+                          d="M0 110C40 105 40 80 90 87S150 110 185 65 230 92 280 50 330 65 375 28 438 47 500 10"
+                          stroke="#6392ff"
+                          stroke-width="2.5"
+                          fill="none"
+                        />
+                      </svg>
+                      <div class="demo-chart-labels">
+                        <span>DISCOVER</span><span>BUILD</span><span>SHIP</span
+                        ><span>EVOLVE</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="demo-caption">
+                <span class="tiny-square"></span> Illustrative capability
+                demonstration <span>404 / STUDIO</span>
+              </p>
+            </div>
+          </article>
+          <article class="service-panel" id="panel-ai" data-service-panel="ai">
+            <div class="service-copy">
+              <span class="service-number">02<span> / 05</span></span>
+              <p class="eyebrow">Intelligence, thoughtfully integrated</p>
+              <h3>AI with a purpose.</h3>
+              <p class="service-description">
+                Make intelligence part of the experience. Useful AI workflows
+                that help people create, understand, and get meaningful work
+                done.
+              </p>
+              <ul class="feature-list">
+                <li><span>↗</span>AI-powered product experiences</li>
+                <li><span>↗</span>Intelligent workflows & automation</li>
+                <li><span>↗</span>Multimodal & vision integration</li>
+              </ul>
+              <a
+                class="text-link service-contact"
+                href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20AI%20experiences"
+                >Let’s build it
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+            <div class="service-visual">
+              <div aria-hidden="true" class="demo-window ai-demo">
+                <div class="demo-toolbar">
+                  <span class="demo-logo"
+                    ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                      <path
+                        d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                        stroke="currentColor"
+                        stroke-width="3"
+                      />
+                    </svg>
+                    clarity</span
+                  ><span class="demo-tag">AI workspace</span>
+                </div>
+                <div class="ai-workspace">
+                  <div class="ai-prompt">
+                    <span class="demo-avatar">A</span>
+                    <p>Help me turn this idea into a clear product brief.</p>
+                  </div>
+                  <div class="ai-response">
+                    <span class="ai-star"
+                      ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                        <path
+                          d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                          stroke="currentColor"
+                          stroke-width="3"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span class="demo-muted"
+                        >A LITTLE CLARITY GOES A LONG WAY</span
+                      >
+                      <h4>Let's find the useful part.</h4>
+                      <p>A focused starting point, shaped around your users.</p>
+                      <div class="ai-result">
+                        <span>01</span>
+                        <div>
+                          <strong>The problem</strong>
+                          <p>What should become easier?</p>
+                        </div>
+                        <i>✓</i>
+                      </div>
+                      <div class="ai-result">
+                        <span>02</span>
+                        <div>
+                          <strong>The opportunity</strong>
+                          <p>Where can intelligence help?</p>
+                        </div>
+                        <i>✓</i>
+                      </div>
+                      <div class="ai-result">
+                        <span>03</span>
+                        <div>
+                          <strong>The next step</strong>
+                          <p>Build something small. Learn something real.</p>
+                        </div>
+                        <i>✓</i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ai-input">
+                    Your next good question… <span>↑</span>
+                  </div>
+                </div>
+              </div>
+              <p class="demo-caption">
+                <span class="tiny-square"></span> Illustrative capability
+                demonstration <span>404 / STUDIO</span>
+              </p>
+            </div>
+          </article>
+          <article
+            class="service-panel"
+            id="panel-websites"
+            data-service-panel="websites"
+          >
+            <div class="service-copy">
+              <span class="service-number">03<span> / 05</span></span>
+              <p class="eyebrow">A first impression that stays</p>
+              <h3>Impossible to ignore.</h3>
+              <p class="service-description">
+                Give your brand a digital presence with a point of view.
+                Expressive typography, purposeful motion, and interactions worth
+                remembering.
+              </p>
+              <ul class="feature-list">
+                <li><span>↗</span>Distinctive brand websites</li>
+                <li><span>↗</span>Interactive experiences & motion</li>
+                <li><span>↗</span>Responsive, performance-minded builds</li>
+              </ul>
+              <a
+                class="text-link service-contact"
+                href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20Creative%20websites"
+                >Let’s build it
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+            <div class="service-visual">
+              <div aria-hidden="true" class="demo-window creative-demo">
+                <div class="demo-toolbar">
+                  <span class="demo-logo">FORM / FIELD</span
+                  ><span class="demo-muted">A CREATIVE EXPLORATION</span>
+                </div>
+                <div
+                  class="creative-scene shader-surface"
+                  data-shader="creative"
+                >
+                  <div
+                    class="creative-fallback shader-fallback"
+                    aria-hidden="true"
+                  ></div>
+                  <canvas aria-hidden="true" class="shader-canvas"></canvas>
+                  <div class="creative-content">
+                    <span class="creative-kicker">BEYOND THE ORDINARY</span>
+                    <h4>Make<br />some feeling.</h4>
+                    <span class="creative-pill"
+                      >An experience, not just a page
+                      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path
+                          d="M6 18 18 6M6 6h12v12"
+                          stroke="currentColor"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        /></svg
+                    ></span>
+                  </div>
+                  <span class="creative-index">01 — EXPERIMENTS IN MOTION</span>
+                </div>
+              </div>
+              <p class="demo-caption">
+                <span class="tiny-square"></span> Illustrative capability
+                demonstration <span>404 / STUDIO</span>
+              </p>
+            </div>
+          </article>
+          <article
+            class="service-panel"
+            id="panel-tools"
+            data-service-panel="tools"
+          >
+            <div class="service-copy">
+              <span class="service-number">04<span> / 05</span></span>
+              <p class="eyebrow">Built for the way you work</p>
+              <h3>Better tools. Better flow.</h3>
+              <p class="service-description">
+                Remove friction from the everyday. Focused tools and systems
+                that help developers build, experiment, and spend more time on
+                what matters.
+              </p>
+              <ul class="feature-list">
+                <li><span>↗</span>Custom developer workflows</li>
+                <li><span>↗</span>Internal tools & dashboards</li>
+                <li><span>↗</span>Technical systems & integrations</li>
+              </ul>
+              <a
+                class="text-link service-contact"
+                href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20Developer%20tools"
+                >Let’s build it
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+            <div class="service-visual">
+              <div aria-hidden="true" class="demo-window tools-demo">
+                <div class="demo-toolbar">
+                  <span class="demo-logo">⌘ &nbsp; workbench</span
+                  ><span class="demo-tag">Developer workspace</span>
+                </div>
+                <div class="code-tabs">
+                  <span>workflow.ts</span><span>preview</span><i>TypeScript</i>
+                </div>
+                <div class="code-editor">
+                  <div class="line-numbers">
+                    01<br />02<br />03<br />04<br />05<br />06<br />07<br />08<br />09<br />10
+                  </div>
+                  <pre><code><span class="code-comment">// Less friction. More building.</span>
+<span class="code-purple">const</span> workflow = <span class="code-blue">defineWorkflow</span>({
+  name: <span class="code-green">'your-next-idea'</span>,
+  steps: [
+    <span class="code-blue">connect</span>(yourTools),
+    <span class="code-blue">build</span>(somethingUseful),
+    <span class="code-blue">ship</span>(withConfidence),
+  ],
+  experience: <span class="code-green">'considered'</span>,
+});</code></pre>
+                </div>
+                <div class="terminal">
+                  <span>TERMINAL</span>
+                  <p><b>❯</b> Your workflow. Your way.<i>▍</i></p>
+                  <small
+                    ><i class="status-dot"></i> Ready for the next good
+                    idea</small
+                  >
+                </div>
+              </div>
+              <p class="demo-caption">
+                <span class="tiny-square"></span> Illustrative capability
+                demonstration <span>404 / STUDIO</span>
+              </p>
+            </div>
+          </article>
+          <article
+            class="service-panel"
+            id="panel-commerce"
+            data-service-panel="commerce"
+          >
+            <div class="service-copy">
+              <span class="service-number">05<span> / 05</span></span>
+              <p class="eyebrow">From discovery to checkout</p>
+              <h3>Designed to be desired.</h3>
+              <p class="service-description">
+                Bring your products into focus. Considered commerce experiences
+                that connect beautiful presentation with a clear path to
+                purchase.
+              </p>
+              <ul class="feature-list">
+                <li><span>↗</span>Custom digital storefronts</li>
+                <li><span>↗</span>Product discovery & presentation</li>
+                <li><span>↗</span>Usability, interaction & performance</li>
+              </ul>
+              <a
+                class="text-link service-contact"
+                href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20Ecommerce"
+                >Let’s build it
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+            <div class="service-visual">
+              <div aria-hidden="true" class="demo-window commerce-demo">
+                <div class="demo-toolbar">
+                  <span class="demo-logo commerce-wordmark">OBJECTS.</span
+                  ><span class="demo-muted">THOUGHTFULLY CURATED</span
+                  ><span>Bag (0)</span>
+                </div>
+                <div class="commerce-layout">
+                  <div class="product-stage">
+                    <div class="product-orbit"></div>
+                    <div class="product-lamp">
+                      <div class="lamp-shade"></div>
+                      <div class="lamp-stem"></div>
+                      <div class="lamp-base"></div>
+                    </div>
+                    <span>FORM NO. 01</span>
+                  </div>
+                  <div class="product-description">
+                    <span class="demo-muted">EVERYDAY, ELEVATED</span>
+                    <h4>A little<br />more warmth.</h4>
+                    <p>Considered objects.<br />Made for your space.</p>
+                    <div class="product-swatches"><i></i><i></i><i></i></div>
+                    <span class="product-cta"
+                      >Explore the collection
+                      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path
+                          d="M5 12h14m-6-6 6 6-6 6"
+                          stroke="currentColor"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        /></svg
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <p class="demo-caption">
+                <span class="tiny-square"></span> Illustrative capability
+                demonstration <span>404 / STUDIO</span>
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="focus-strip" id="focus">
+          <span>THE DETAILS MAKE THE DIFFERENCE</span>
+          <p>
+            Clear architecture <i>✳</i> Intuitive interfaces
+            <i>✳</i> Purposeful motion <i>✳</i> Performance in mind
+          </p>
+        </div>
+      </section>
+      <section class="process section container" id="process">
+        <div class="section-label">
+          <span>02 / HOW WE GET THERE</span
+          ><span>ONE PARTNER. THE WHOLE PICTURE.</span>
+        </div>
+        <div class="section-heading">
+          <h2>
+            Less back and forth.<br /><span class="muted"
+              >More moving forward.</span
+            >
+          </h2>
+          <p>
+            Direct collaboration with the person<br />designing and building
+            your product.<br />Clear thinking at every step.
+          </p>
+        </div>
+        <div class="process-grid">
+          <article class="process-step">
+            <div class="process-step-top">
+              <span>01</span><span class="process-icon">↗</span>
+            </div>
+            <h3>Define<span>.</span></h3>
+            <p>
+              Start with the right questions. Understand your users, your goals,
+              and what success should look like.
+            </p>
+            <span class="process-tag">CLARITY BEFORE CODE</span>
+          </article>
+          <article class="process-step">
+            <div class="process-step-top">
+              <span>02</span><span class="process-icon">▧</span>
+            </div>
+            <h3>Design<span>.</span></h3>
+            <p>
+              Shape the experience. Connect structure, visual direction, and the
+              details that make it feel right.
+            </p>
+            <span class="process-tag">PURPOSE IN EVERY PIXEL</span>
+          </article>
+          <article class="process-step">
+            <div class="process-step-top">
+              <span>03</span><span class="process-icon">⌘</span>
+            </div>
+            <h3>Build<span>.</span></h3>
+            <p>
+              Bring it to life in visible increments. Thoughtful architecture,
+              careful engineering, and room for feedback.
+            </p>
+            <span class="process-tag">BUILT TO GO FURTHER</span>
+          </article>
+          <article class="process-step">
+            <div class="process-step-top">
+              <span>04</span><span class="process-icon">✳</span>
+            </div>
+            <h3>Launch<span>.</span></h3>
+            <p>
+              Ship with care. Test the complete experience, deploy, and keep
+              improving as the product grows.
+            </p>
+            <span class="process-tag">THE START OF WHAT’S NEXT</span>
+          </article>
+        </div>
+      </section>
+      <section class="studio-section section" id="studio">
+        <div class="container">
+          <div class="section-label">
+            <span>03 / THE PERSON BEHIND THE PIXELS</span
+            ><span>INDEPENDENT BY DESIGN</span>
+          </div>
+          <div class="studio-layout">
+            <div class="studio-art" aria-hidden="true">
+              <div class="studio-grid"></div>
+              <div class="studio-seal">
+                <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                  <path
+                    d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  /></svg
+                ><span>404<br /><small>TECH</small></span>
+              </div>
+              <span class="studio-art-top"
+                >A SMALL STUDIO.<br />A WIDE PERSPECTIVE.</span
+              ><span class="studio-art-bottom"
+                >BASED IN PAKISTAN <i class="status-dot"></i
+              ></span>
+            </div>
+            <div class="studio-copy" id="about">
+              <p class="eyebrow">HELLO, I’M AMIR.</p>
+              <h2>
+                A builder’s mindset.<br /><span class="muted"
+                  >A designer’s eye.</span
+                >
+              </h2>
+              <p>
+                I’m Amir Iqbal Khan, a full stack developer and the founder of
+                404 Tech. I turn rough ideas into complete digital products,
+                connecting the thinking, the design, and the engineering.
+              </p>
+              <p>
+                I care about the details that make something feel finished. The
+                small interactions. The forgotten edge cases. The work that
+                makes someone’s day a little easier.
+              </p>
+              <a
+                class="text-link"
+                href="https://github.com/AmirIqbalKhan"
+                target="_blank"
+                rel="noopener noreferrer"
+                >A little more on GitHub
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 18 18 6M6 6h12v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+              <div class="studio-now" id="now">
+                <span><i class="status-dot"></i> ON MY RADAR</span>
+                <p>
+                  System design, advanced TypeScript, and the next generation of
+                  AI-powered experiences.
+                </p>
+              </div>
+              <div class="studio-interests" id="more">
+                <span>BEYOND CODE</span>
+                <p>Design · Architecture · Business · Creative technology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="notes section container" id="approach">
+        <div class="section-label">
+          <span>04 / ENGINEERING NOTES</span
+          ><span>THE THINKING BEHIND THE WORK</span>
+        </div>
+        <div class="notes-layout">
+          <div>
+            <h2>
+              Good software<br />starts with <br /><span class="muted"
+                >good questions.</span
+              >
+            </h2>
+            <p class="notes-description">
+              A closer look at how I approach the architecture, interfaces, and
+              decisions behind a product.
+            </p>
+          </div>
+          <div class="notes-list">
+            <p class="notes-intro">
+              Every product I ship at 404 Tech follows the same order of
+              operations: understand the problem, define the data and the
+              boundaries, design the interface, add intelligence only where it
+              earns its place, and then measure what actually reaches people.
+              Amir Iqbal Khan works as a full stack developer, which in practice
+              means one person owns the entire path from rough concept to
+              deployed product. That end-to-end ownership is deliberate rather
+              than a staffing accident. When the same head designs the API shape
+              and the loading state, decisions stop contradicting each other —
+              the interface stops promising data the backend cannot deliver
+              quickly, and performance stops being a cleanup task assigned to
+              the end of a project.
+            </p>
+            <details class="note-detail">
+              <summary>
+                Structure before screens: the architecture pass<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  The first pass on any project is invisible in the finished
+                  product, and it is the pass that decides everything
+                  afterwards. I map the entities — users, products, orders,
+                  posts, whatever the domain actually contains — and the
+                  relationships between them before a single screen exists. That
+                  mapping produces the data model, the API surface, the
+                  authentication boundaries, and the deployment topology. Only
+                  then do interfaces have something real to talk to. This
+                  ordering is why my projects rarely need a rewrite halfway
+                  through: the expensive decisions get made while they are still
+                  cheap to change. Skipping this pass is the most common reason
+                  a web application feels quick in a prototype and fragile in
+                  production, because every later feature has to negotiate with
+                  a structure that was never designed.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                Interfaces that respect the user&#39;s time<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  Interface work is mostly the study of delays and doubts. Every
+                  screen answers three questions: what is happening, what can I
+                  do, and what did I just cause? A product that answers those in
+                  the right order feels calm even while it is doing complicated
+                  work underneath. In practice that means deliberate loading
+                  states instead of spinners that appear and vanish, form
+                  validation that explains rather than scolds, and layouts that
+                  hold their shape while data arrives. Typography carries a
+                  large share of this: a clear scale, honest spacing, and
+                  contrast that survives a phone in daylight. Motion is used as
+                  a hint of causality — a panel that slides because it came from
+                  somewhere — never as decoration that delays the next tap.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                AI as a product capability, not a feature sticker<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  Most AI features fail for product reasons rather than model
+                  reasons. A chatbot bolted onto a workflow that was already
+                  clear adds a step instead of removing one. The first question
+                  I ask is where the user is currently doing repetitive judgment
+                  by hand — sorting, drafting, summarising, checking, labelling
+                  — and whether a model can take that judgment reliably enough
+                  to be trusted with it. From there the engineering questions
+                  follow: what context does the model actually need, what
+                  happens when it is wrong, how does a person correct it without
+                  starting over, and what does each interaction cost to run. AI
+                  integration in my work is therefore mostly architecture work:
+                  retrieval boundaries, fallback paths, latency budgets, and
+                  honest affordances that make it obvious when a machine wrote
+                  something.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                Performance as a design constraint<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  Performance is a design decision, not an optimisation sprint
+                  at the end. I treat Google&#39;s published Core Web Vitals
+                  thresholds as the target line: Largest Contentful Paint under
+                  2.5 seconds, Interaction to Next Paint under 200 milliseconds,
+                  and Cumulative Layout Shift under 0.1 for the 75th percentile
+                  of real visits, as documented on
+                  <a href="https://web.dev/articles/vitals" rel="noopener"
+                    >web.dev</a
+                  >. Hitting those numbers changes earlier choices — how much
+                  JavaScript ships on first load, whether images carry intrinsic
+                  dimensions, which fonts are loaded and when, and how much work
+                  happens on the server instead of in the browser. The reason to
+                  care is not the score itself. It is that a fast interface is a
+                  more forgiving interface: people tolerate complexity when the
+                  response is immediate, and they abandon a product that makes
+                  them wait to find out whether it worked.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                Launch is a milestone, not the finish line<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  Shipping is where the useful information starts arriving.
+                  After launch I watch which paths people actually take, where
+                  they backtrack, which screens they reach and abandon, and what
+                  breaks under real data. Maintenance, for me, is not a
+                  euphemism for bug fixing: it means reading the product as
+                  evidence and then removing the parts that are not earning
+                  their place. Small regular improvements compound, and they
+                  keep a codebase honest — dependencies stay current,
+                  abstractions stay justified, and features nobody uses get
+                  deleted before they calcify into architecture. This is also
+                  the stage where documentation and machine-readable summaries
+                  matter, because both human collaborators and AI systems need a
+                  reliable description of what the product does and how it is
+                  meant to behave.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                The stack I reach for<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  My default environment is
+                  <a href="https://nextjs.org/" rel="noopener">Next.js</a> with
+                  <a href="https://react.dev/" rel="noopener">React</a> and
+                  <a href="https://www.typescriptlang.org/" rel="noopener"
+                    >TypeScript</a
+                  >, because the combination keeps interface code and data
+                  contracts inside one typed system, which removes a whole class
+                  of bugs that only appear at runtime. Styling is handled with
+                  modern CSS — custom properties, grid, logical properties, and
+                  container queries — rather than a heavy runtime layer. Data
+                  lives in relational storage behind typed access layers, and
+                  deployment runs on edge platforms with preview environments so
+                  every change is reviewable before it reaches production. AI
+                  features are integrated through explicit service boundaries
+                  instead of scattered calls, so a provider can be swapped
+                  without rewriting the product. Where a project needs something
+                  different, the stack changes; the reasoning does not.
+                </p>
+              </div>
+            </details>
+            <details class="note-detail">
+              <summary>
+                What it is like to work with me<span
+                  class="detail-plus"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="note-body">
+                <p>
+                  I am based in Pakistan and work with founders, small teams,
+                  and agencies who need someone comfortable owning a product
+                  rather than a ticket. Engagements usually start with a short
+                  written brief: the problem, the users, the constraints, and
+                  what success looks like in measurable terms. From there I work
+                  in visible increments and share running builds instead of
+                  status reports, so feedback arrives while it can still change
+                  the outcome. I am open to full-time software engineering
+                  roles, freelance and contract projects, open source
+                  contributions, and creative collaborations, and I am usually
+                  most useful where a project sits between engineering, design,
+                  and product. The best way to start is a short message
+                  describing what you are building and where it is stuck.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section section" id="contact">
+        <div
+          class="contact-art shader-surface"
+          data-shader="contact"
+          aria-hidden="true"
+        >
+          <div class="contact-fallback shader-fallback"></div>
+          <canvas class="shader-canvas"></canvas>
+        </div>
+        <div class="container contact-content">
+          <div class="availability">
+            <i class="status-dot"></i> YOUR NEXT CHAPTER STARTS HERE
+          </div>
+          <h2>Something on<br />your mind<span>?</span></h2>
+          <p>Let’s turn that “what if” into something real.</p>
+          <a
+            class="button button-light"
+            id="contact-email"
+            href="mailto:hello@404tech.dev?subject=Project%20enquiry%20%E2%80%94%20Digital%20products"
+            >Start a conversation
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M6 18 18 6M6 6h12v12"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+          <div class="email-row">
+            <a href="mailto:hello@404tech.dev">hello@404tech.dev</a
+            ><button
+              class="copy-email"
+              type="button"
+              aria-label="Copy email address"
+              hidden
+            >
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <rect
+                  x="7"
+                  y="7"
+                  width="9"
+                  height="10"
+                  rx="2"
+                  stroke="currentColor"
+                />
+                <path
+                  d="M12 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"
+                  stroke="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <a class="brand" href="#top"
+        ><span class="brand-symbol"
+          ><svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <path
+              d="M20 2v36M2 20h36M7.3 7.3l25.4 25.4M7.3 32.7 32.7 7.3"
+              stroke="currentColor"
+              stroke-width="3"
+            /></svg></span
+        ><span>404<span class="brand-tech">TECH</span></span></a
+      ><span>© 2026 404 Tech. Thoughtfully built by Amir.</span>
       <div>
-        <p class="conduit-lead">keep exploring</p>
-        <ul class="conduit-list">
-          <li><a class="conduit" href="https://aamir404tech.vercel.app/#work">the five kinds of products I ship</a></li>
-          <li><a class="conduit" href="https://aamir404tech.vercel.app/#focus">where I go deep technically</a></li>
-          <li><a class="conduit" href="https://aamir404tech.vercel.app/#now">what is on the bench right now</a></li>
-          <li><a class="conduit" href="https://aamir404tech.vercel.app/#studio">how the studio works</a></li>
-          <li><a class="conduit" href="https://aamir404tech.vercel.app/#contact">start a conversation</a></li>
-        </ul>
+        <a
+          href="https://github.com/AmirIqbalKhan"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M6 18 18 6M6 6h12v12"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg></a
+        ><a href="mailto:hello@404tech.dev"
+          >Email
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M6 18 18 6M6 6h12v12"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg></a
+        ><a href="#top" class="back-top" aria-label="Back to top">↑</a>
       </div>
-      <div>
-        <p class="conduit-lead">primary sources</p>
-        <ul class="refs">
-          <li><a href="https://web.dev/articles/vitals" rel="noopener">Core Web Vitals thresholds</a></li>
-          <li><a href="https://schema.org/" rel="noopener">Schema.org vocabulary</a></li>
-          <li><a href="https://llmstxt.org/" rel="noopener">llms.txt specification</a></li>
-          <li><a href="https://github.com/AmirIqbalKhan" rel="noopener">GitHub profile</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ——— CTA ——— -->
-  <section class="cta sec" id="contact">
-
-
-    <p class="hbio hbio--sm rv">Building something ambitious, unconventional — or just want to make an existing idea better?</p>
-    <h2 class="cta-n rv" style="--d:.1s"><span class="nbox">Let's Build</span></h2>
-    <a class="btn rv" style="--d:.2s" href="mailto:hello@404tech.dev"><i class="sq"></i>Contact me</a>
-  </section>
-</main>
-
-<!-- ——— FOOTER ——— -->
-<footer class="foot">
-  <span>© 2026 Amir Iqbal Khan — Pakistan 🇵🇰</span>
-  <div class="foot-l">
-    <a href="https://github.com/AmirIqbalKhan" rel="noopener noreferrer">GitHub</a>
-    <a href="mailto:hello@404tech.dev">Email</a>
-  </div>
-  <span>404 — Not Found · nothing ordinary here</span>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    </footer>
+    <script type="module" src="/script.js"></script>
+  </body>
 </html>
